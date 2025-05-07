@@ -1,4 +1,4 @@
-import './biodata.css';
+import './style.css';
 import viteLogo from './assets/im.png'
 import React from 'react';
 
