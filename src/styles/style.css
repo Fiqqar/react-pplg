@@ -67,10 +67,14 @@ body {
 }
 
 .menu-item:hover {
-    cursor: pointer;
     background: #e0f7fa;
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.material-symbols-outlined:hover{
+    cursor: pointer;
 }
 
 .menu-item img {
