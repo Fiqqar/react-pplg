@@ -18,6 +18,7 @@ body {
     0% {
         background-position: 0 0;
     }
+
     100% {
         background-position: 40px 40px;
     }
@@ -72,8 +73,69 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.menu-input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    margin-bottom: 18px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #fafafa;
+    color: #333;
+    box-sizing: border-box;
+    display: block;
+}
 
-.material-symbols-outlined:hover{
+.menu-input:focus {
+    border-color: #ff7e5f;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 126, 95, 0.15);
+}
+
+.menu-submit-btn {
+    width: 100%;
+    padding: 12px 0;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(255, 126, 95, 0.08);
+}
+
+.menu-submit-btn:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    box-shadow: 0 4px 16px rgba(255, 126, 95, 0.15);
+}
+
+.menu-input-form {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #ff7e5f, #feb47b);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.menu-input-form:focus {
+    box-shadow: 0 0 8px rgba(255, 126, 95, 0.3);
+}
+
+
+.material-symbols-outlined:hover {
     cursor: pointer;
 }
 
